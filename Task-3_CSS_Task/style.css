@@ -1,0 +1,31 @@
+body {
+    margin-left: 22px;
+    background-color: rgb(243, 243, 171);
+  }
+  .dform div {
+    margin: 14px 0;
+  }
+  .head {
+    color: rgb(243, 243, 171);
+    font-style: italic;
+    text-align: center;
+    word-spacing: 20px;
+    letter-spacing: 10px;
+    background-color: darkred;
+    border-bottom: 15px solid red;
+  }
+  .bggreen {
+    color: white;
+    padding-left: 14px;
+    background-color: rgb(6, 216, 6);
+  }
+  .glogo {
+    border: 3px dashed rgb(141, 138, 138);
+  }
+  .cbr {
+    color: rgb(174, 169, 169);
+  }
+  .tab tr td {
+    background-color: rgb(207, 201, 201);
+    border-color: rgb(207, 201, 201);
+  }
