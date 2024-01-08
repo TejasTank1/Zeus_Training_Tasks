@@ -281,25 +281,9 @@ height: 36px;
 .footer{
     margin-top: auto;
 }
-.sm{
+.sm, .sm svg{
     display: none;
  }
-
- .badge svg::before{
-    content: "";
-  z-index: -1;
-  overflow: hidden;
-  transform: rotate(-135deg);
-  width: 120px;
-
-  display: block; 
-  background: #79A70A; 
-  position: absolute; 
-  height: 220px; 
-  opacity: 1;
-
- }
-
 @media screen and (max-width:1024px) {
     .third{
         grid-template-columns: auto;
@@ -308,12 +292,12 @@ height: 36px;
 
 @media screen and (max-width:768px) {
      .lg{
-        display: none;
+        display: none !important;
      }
-     .sm{
+     .sm svg{
         display: block;
      }
-}
+} 
 
 @media screen and (max-width:476px) {
     .third .card .f .content { 
