@@ -1,0 +1,326 @@
+
+@font-face {
+    font-family: Quickmed;
+    src: url('./asset/Quicksandfont1/static/Quicksand-Medium.ttf');
+}
+@font-face {
+    font-family: Quickbold;
+    src: url('./asset/Quicksandfont1/static/Quicksand-Bold.ttf');
+}
+body{
+    margin: 0px;
+}
+
+.main{
+    box-sizing: border-box;
+    background-color: #EEEEEE;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.active{
+    border-bottom: 4px solid white;
+    color: white;
+}
+.hitems{
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+.hitems li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 56px;
+    background: transparent url('./asset/header\ pattern\ image.png') 0% 0%  padding-box; 
+    background-color: black;
+    /* background-size: 100%; */
+    background-size: cover;
+    /* opacity: 1100%; */
+    
+}
+
+.main .header .hicon{
+    margin: 11px 0 0 24px ;
+height: 36px;
+
+}
+
+.header .hitems{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 32px;
+    font-family: Quickmed;
+    color: #3FD28B;
+    margin-right: 24px;
+}
+
+
+.body {
+    margin: 24px;
+}
+.body .first {
+    display: grid;
+    /* justify-content: center; */
+    grid-template-columns: auto auto;
+    background: rgba(141, 220, 151, 1);
+    height: 64px;
+}
+
+.body .first .courses,.body .first .classes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.second {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    border-bottom: 2px solid rgb(0 0 0 / 34%);
+}
+.second .filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    font-family: Quickmed;
+}
+
+.second .filter label {
+    color: rgba(104, 104, 104, 1);
+    font-size: 12px;
+}
+.second .filter select {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid rgb(0 0 0 / 28%);
+}
+
+.second .res p {
+    font-size: 12px;
+    color: rgba(104, 104, 104, 1);
+}
+
+
+.third {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.third .card .f {
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+    padding-bottom: 10px !important;
+    padding: 24px;
+}
+
+.third .card .f .img img{
+    width: 135px;
+}
+
+.third .card .f .content{
+    font-family: Quickmed;
+    width: 275px;  
+}
+
+.third .card .f .content p {
+    margin-top: 0px;
+    color: rgba(34, 34, 34, 1);
+    font-size: 16px;
+    margin-bottom: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.third .card .f .content ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    list-style: none;
+    margin: 7px 0;
+    padding: 0px;
+}
+
+.third .card .f .content ul li{
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 12px;
+    color: rgba(102, 102, 102, 1);
+}
+.third .card .f .content .not li{
+    padding-left: 0px;
+}
+.third .card .f .content ul li span{
+    font-family: Quickbold;
+    color: rgba(34, 34, 34, 1);
+    font-size: 12px;
+}
+.third .card .f .content .spec li:first-child{
+    padding-left: 0px; 
+    border-right: 2px solid rgb(129, 128, 128);
+}
+.third .card .f .content select{
+    height: 27px;
+    font-size: 16px;
+    margin-top: 13px;
+    width: 100%;
+    border: 0px;
+    outline: 0px;
+    background: transparent;
+    border-bottom: 2px solid #00000059;
+
+        -webkit-appearance: none;
+        background-image: url("./asset/icons/arrow-down.svg");
+      background-repeat: no-repeat;
+      background-position: right center; 
+      background-position: calc(100% - 6px) center;  
+    
+}
+.card{
+    width: 476px;
+    height:246px;
+    background: rgba(255, 255, 255, 1) 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+}
+
+.card .s {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    margin-top:5px;
+    margin-bottom: 9px;
+    margin-left: 24px;
+    margin-right: 24px;
+    
+    border-top: 2px solid #8b8888;
+}
+.card .s svg{
+    height: 24px;
+    width: 22px;
+}
+
+.single{
+    border: 0px !important;
+    padding: 0px  !important;
+}
+
+.op-4{
+    opacity: 0.4;
+}
+
+
+.fone {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 16px;
+    background: #EEEEEE;
+}
+
+.fone a{
+    font-family: Quickmed;
+    text-decoration: none;
+    color: #1F7A54;
+    font-size: 14px;
+}
+
+.fone a:first-child{
+    border-right: 2px solid #0000001F;
+    padding-right: 8px;
+}
+.fone a:last-child{
+    padding-left: 8px;
+}
+
+.fsecinn {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+     background: #E0E1E1;
+}
+
+
+.fsecinn svg{ 
+    padding-right: 16px;
+}
+.fsecinn p{
+    border-left: 1px solid rgb(132, 129, 129);
+    padding-left: 16px;
+    color: #616161;
+    font-size: 12px;
+}
+.fsecinn p .special{
+    font-family: Quickbold;
+}
+.courses{
+    border-bottom: 4px solid #222222;
+}
+
+.courses h2 {
+    margin: 0px;
+}
+.fsecond {
+    height: 40px;
+}
+
+.footer{
+    margin-top: auto;
+}
+.sm{
+    display: none;
+ }
+
+ .badge svg::before{
+    content: "";
+  z-index: -1;
+  overflow: hidden;
+  transform: rotate(-135deg);
+  width: 120px;
+
+  display: block; 
+  background: #79A70A; 
+  position: absolute; 
+  height: 220px; 
+  opacity: 1;
+
+ }
+
+@media screen and (max-width:1024px) {
+    .third{
+        grid-template-columns: auto;
+    }
+}
+
+@media screen and (max-width:768px) {
+     .lg{
+        display: none;
+     }
+     .sm{
+        display: block;
+     }
+}
+
+@media screen and (max-width:476px) {
+    .third .card .f .content { 
+        width: auto !important;
+    }
+    .card {
+        width: auto;
+        height: auto; 
+    }
+}
