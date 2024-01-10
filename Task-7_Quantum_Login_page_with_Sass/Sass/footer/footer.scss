@@ -1,0 +1,45 @@
+@import "../variable/variable.scss";
+@import "../mixins/mixins.scss";
+
+.footer {
+  margin-top: auto;
+
+  .fone {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 16px;
+    background: #eeeeee;
+    a {
+      font-family: $qmed;
+      text-decoration: none;
+      color: #1f7a54;
+      font-size: 14px;
+      &:first-child {
+        border-right: 2px solid #0000001f;
+        padding-right: 8px;
+      }
+      &:last-child {
+        padding-left: 8px;
+      }
+    }
+  }
+  .fsecond {
+    height: 40px;
+    .fsecinn {
+      @include center-div();
+      background: #e0e1e1;
+      svg {
+        padding-right: 16px;
+      }
+      p {
+        border-left: 1px solid rgb(132, 129, 129);
+        padding-left: 16px;
+        color: #616161;
+        font-size: 12px;
+        .special {
+          font-family: $qbold;
+        }
+      }
+    }
+  }
+}
