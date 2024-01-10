@@ -1,0 +1,191 @@
+.single {
+  border: 0px !important;
+  padding: 0px !important;
+}
+
+.op-4 {
+  opacity: 0.4;
+}
+
+.body {
+  margin: 24px;
+}
+.body .first {
+  display: grid;
+  grid-template-columns: auto auto;
+  background: rgb(141, 220, 151);
+  height: 64px;
+}
+.body .first .courses {
+  border-bottom: 4px solid #222222;
+}
+.body .first .classes,
+.body .first .courses {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.body .first .classes h2,
+.body .first .courses h2 {
+  margin: 0px;
+}
+.body .first .classes p,
+.body .first .courses p {
+  font-size: 16px;
+  font-family: Quickmed;
+  color: #222222;
+  opacity: 100%;
+}
+.body .second {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.34);
+}
+.body .second .filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  font-family: Quickmed;
+}
+.body .second .filter label {
+  color: rgb(104, 104, 104);
+  font-size: 12px;
+}
+.body .second .filter select {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.28);
+}
+.body .second .res p {
+  font-size: 12px;
+  color: rgb(104, 104, 104);
+}
+.body .third {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 24px;
+}
+.body .third .card {
+  width: 476px;
+  height: 246px;
+  background: rgb(255, 255, 255) 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  position: relative;
+}
+.body .third .card .f {
+  display: flex;
+  justify-content: flex-start;
+  gap: 16px;
+  padding-bottom: 10px !important;
+  padding: 24px;
+}
+.body .third .card .f .img img {
+  width: 135px;
+}
+.body .third .card .f .content {
+  font-family: Quickmed;
+  width: 275px;
+}
+.body .third .card .f .content p {
+  margin-top: 0px;
+  color: rgb(34, 34, 34);
+  font-size: 16px;
+  margin-bottom: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.body .third .card .f .content ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  margin: 7px 0;
+  padding: 0px;
+}
+.body .third .card .f .content ul li {
+  padding-left: 9px;
+  padding-right: 9px;
+  font-size: 12px;
+  color: rgb(102, 102, 102);
+}
+.body .third .card .f .content ul li span {
+  font-family: Quickbold;
+  color: rgb(34, 34, 34);
+  font-size: 12px;
+}
+.body .third .card .f .content .not li {
+  padding-left: 0px;
+}
+.body .third .card .f .content .spec li:first-child {
+  padding-left: 0px;
+  border-right: 2px solid rgb(129, 128, 128);
+}
+.body .third .card .f .content select {
+  height: 27px;
+  font-size: 16px;
+  margin-top: 13px;
+  width: 100%;
+  border: 0px;
+  outline: 0px;
+  background: transparent;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3490196078);
+  -webkit-appearance: none;
+  background-image: url("./asset/icons/arrow-down.svg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-position: calc(100% - 6px) center;
+}
+.body .third .card .s {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
+  margin-top: 5px;
+  margin-bottom: 9px;
+  margin-left: 24px;
+  margin-right: 24px;
+  border-top: 2px solid #8b8888;
+}
+.body .third .card .s svg {
+  height: 24px;
+  width: 22px;
+}
+.body .third .card .badge {
+  position: absolute;
+  width: 52px;
+  height: 18px;
+  background-color: #ffe4e6;
+  font-size: 10px;
+  color: #d80000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Quickmed;
+}
+
+@media screen and (max-width: 1024px) {
+  .body .third {
+    grid-template-columns: auto !important;
+  }
+}
+@media screen and (max-width: 476px) {
+  .body .third .card .f .content {
+    width: auto !important;
+  }
+  .body .third {
+    width: auto !important;
+    height: auto !important;
+  }
+  .body .third .card {
+    width: auto !important;
+    height: auto !important;
+  }
+}/*# sourceMappingURL=body.css.map */
