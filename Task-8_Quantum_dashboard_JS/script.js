@@ -163,9 +163,9 @@ async function initannouncement() {
 
     fir.appendChild(p);
 
-    let img=document.createElement("img");
-    img.setAttribute("src",ele.iconpath);
-    
+    let img = document.createElement("img");
+    img.setAttribute("src", ele.iconpath);
+
     fir.appendChild(img);
 
     f.appendChild(fir);
@@ -196,27 +196,116 @@ async function initannouncement() {
   }
 }
 
+async function initnotification() {
+  const req = await fetch("./data.json");
+  let data = await req.json();
+  data = data.notification;
+
+  let antt = document.querySelector(".noti");
+
+  for (let ele of data) {
+    let f = document.createElement("div");
+    f.setAttribute("class", "f");
+
+    f.style.backgroundColor = ele.bg;
+
+    let hh = document.createElement("div");
+    hh.setAttribute("class", "hh");
+
+    let head = document.createElement("p");
+    head.setAttribute("class", "head");
+
+    head.innerText = ele.title;
+
+    hh.appendChild(head);
+
+    let img = document.createElement("img");
+    img.setAttribute("src", ele.iconpath);
+
+    hh.appendChild(img);
+
+    f.appendChild(hh);
+
+    if (ele.course != "") {
+      let mid = document.createElement("p");
+      mid.setAttribute("class", "mid");
+
+      mid.innerText = "course: " + ele.course;
+      f.appendChild(mid);
+    }
+    if (ele.class != "") {
+      let mid = document.createElement("p");
+      mid.setAttribute("class", "mid");
+
+      mid.innerText = "class: " + ele.class;
+      f.appendChild(mid);
+    }
+
+    let last = document.createElement("p");
+    last.setAttribute("class", "last");
+
+    last.innerText = ele.date;
+    f.appendChild(last);
+
+    antt.appendChild(f);
+  }
+}
+
 init();
 
 initannouncement();
+initnotification();
 
 function toggle() {
   let ele = document.querySelector(".forsm");
+  let anou = document.querySelector(".announcement");
+  let noti = document.querySelector(".notifications");
   if (ele.style.display == "none") {
+    if (noti.style.display != "none") {
+      noti.style.display = "none";
+    }
+    if (anou.style.display != "none") {
+      anou.style.display = "none";
+    }
     ele.style.display = "block";
   } else {
     ele.style.display = "none";
   }
 }
 
-function toggleanouncement(){
-  let ele=document.querySelector(".announcement");
+function toggleanouncement() {
+  let ele = document.querySelector(".announcement");
+  let noti = document.querySelector(".notifications");
+  let forsm = document.querySelector(".forsm");
 
-  if(ele.style.display!="none")
-  {
-    ele.style.display="none";
-  }else{
-    ele.style.display="block";
+  if (ele.style.display != "none") {
+    ele.style.display = "none";
+  } else {
+    if (noti.style.display != "none") {
+      noti.style.display = "none";
+    }
+    if (forsm.style.display != "none") {
+      forsm.style.display = "none";
+    }
+    ele.style.display = "block";
+  }
+}
+
+function shownotification() {
+  let ele = document.querySelector(".notifications");
+  let anou = document.querySelector(".announcement");
+  let forsm = document.querySelector(".forsm");
+
+  if (ele.style.display != "none") {
+    ele.style.display = "none";
+  } else {
+    if (anou.style.display != "none") {
+      anou.style.display = "none";
+    }
+    if (forsm.style.display != "none") {
+      forsm.style.display = "none";
+    }
+    ele.style.display = "block";
   }
 }
 

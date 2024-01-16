@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="./script.js"></script>
     <link rel="stylesheet" href="./style.css" />
     <title>Document</title>
+    <script src="./script.js"></script>
   </head>
   <body>
     <div class="main">
@@ -235,7 +235,7 @@
           <li class="lg">Users</li>
           <li class="lg">Report</li>
           <li class="lg">Admin</li>
-          <li class="hmainbadge">
+          <li class="hmainbadge" onclick="shownotification()">
             <div class="hbadge">2</div>
             <svg
               id="notifications"
@@ -327,7 +327,7 @@
             </svg>
           </li>
         </ul>
-        <div class="forsm" style="display: none;">
+        <div class="forsm" style="display: none">
           <ul>
             <li>Dashboard</li>
             <li onclick="ccchange('contentdown')">
@@ -345,7 +345,7 @@
             <li class="contentdown">Course Catalog</li>
             <li onclick="ccchange('usercontentdown')">
               User
-              <svg 
+              <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -385,12 +385,20 @@
           </ul>
         </div>
 
-        <div class="announcement" style="display: none;" >
+        <div class="announcement" style="display: none">
           <div class="anfirst"></div>
 
           <div class="btns">
             <p class="shall">Show All</p>
             <p class="crnew">Create New</p>
+          </div>
+        </div>
+
+        <div class="notifications" style="display: none">
+          <div class="anfirst noti"></div>
+
+          <div class="btns">
+            <p class="shall">Show All</p>
           </div>
         </div>
       </div>

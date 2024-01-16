@@ -130,73 +130,94 @@
       "iconpath": "./asset/correct.png"
     }
   ],
-  "notification":[
+  "notification": [
     {
-      "title":"License for Introduction to Algebra has been assigned to your school",
-      "class":"",
-      "course":"",
-      "date":"15-Sep-2018 at 07:21 pm",
-      "iconpath":"./asset/dnd.png"
-    },{
-      "title":"Lesson 3 Practice Worksheet overdue for Amy Santiago",
-      "class":"",
-      "course":"Advanced Mathematics",
-      "date":"15-Sep-2018 at 05:21 pm",
-      "iconpath":"./asset/correct.png"
-    },{
-      "title":"23 new students created",
-      "class":"",
-      "course":"",
-      "date":"14-Sep-2018 at 01:21 pm",
-      "iconpath":"./asset/dnd.png"
-    },{
-      "title":"15 submissions ready for evaluation",
-      "class":"Basics of Algebra",
-      "course":"",
-      "date":"13-Sep-2018 at 01:15 pm",
-      "iconpath":"./asset/dnd.png"
-    },{
-      "title":"License for Basic Concepts in Geometry has been assigned to your... school",
-      "class":"",
-      "course":"",
-      "date":"15-Sep-2018 at 07:21 pm",
-      "iconpath":"./asset/dnd.png"
-    },{
-      "title":"Lesson 3 Practice Worksheet overdue for Sam Diego",
-      "class":"",
-      "course":"Advanced Mathematics",
-      "date":"15-Sep-2018 at 07:21 pm",
-      "iconpath":"./asset/correct.png"
-    },{
-      "title":"License for Introduction to Algebra has been assigned to your school",
-      "class":"",
-      "course":"",
-      "date":"15-Sep-2018 at 07:21 pm",
-      "iconpath":"./asset/dnd.png"
-    },{
-      "title":"License for Introduction to Algebra has been assigned to your school",
-      "class":"",
-      "course":"",
-      "date":"15-Sep-2018 at 07:21 pm",
-      "iconpath":"./asset/dnd.png"
-    },{
-      "title":"License for Introduction to Algebra has been assigned to your school",
-      "class":"",
-      "course":"",
-      "date":"15-Sep-2018 at 07:21 pm",
-      "iconpath":"./asset/dnd.png"
-    },{
-      "title":"License for Introduction to Algebra has been assigned to your school",
-      "class":"",
-      "course":"",
-      "date":"15-Sep-2018 at 07:21 pm",
-      "iconpath":"./asset/dnd.png"
-    },{
-      "title":"License for Introduction to Algebra has been assigned to your school",
-      "class":"",
-      "course":"",
-      "date":"15-Sep-2018 at 07:21 pm",
-      "iconpath":"./asset/dnd.png"
+      "title": "License for Introduction to Algebra has been assigned to your school",
+      "class": "",
+      "course": "",
+      "date": "15-Sep-2018 at 07:21 pm",
+      "iconpath": "./asset/dnd.png",
+      "bg": "#FFFFEE"
+    },
+    {
+      "title": "Lesson 3 Practice Worksheet overdue for Amy Santiago",
+      "class": "",
+      "course": "Advanced Mathematics",
+      "date": "15-Sep-2018 at 05:21 pm",
+      "iconpath": "./asset/correct.png",
+      "bg": "#FFFFFF"
+    },
+    {
+      "title": "23 new students created",
+      "class": "",
+      "course": "",
+      "date": "14-Sep-2018 at 01:21 pm",
+      "iconpath": "./asset/dnd.png",
+      "bg": "#FFFFEE"
+    },
+    {
+      "title": "15 submissions ready for evaluation",
+      "class": "Basics of Algebra",
+      "course": "",
+      "date": "13-Sep-2018 at 01:15 pm",
+      "iconpath": "./asset/dnd.png",
+      "bg": "#FFFFEE"
+    },
+    {
+      "title": "License for Basic Concepts in Geometry has been assigned to your... school",
+      "class": "",
+      "course": "",
+      "date": "15-Sep-2018 at 07:21 pm",
+      "iconpath": "./asset/dnd.png",
+      "bg": "#FFFFEE"
+    },
+    {
+      "title": "Lesson 3 Practice Worksheet overdue for Sam Diego",
+      "class": "",
+      "course": "Advanced Mathematics",
+      "date": "15-Sep-2018 at 07:21 pm",
+      "iconpath": "./asset/correct.png",
+      "bg": "#FFFFFF"
+    },
+    {
+      "title": "License for Introduction to Algebra has been assigned to your school",
+      "class": "",
+      "course": "",
+      "date": "15-Sep-2018 at 07:21 pm",
+      "iconpath": "./asset/dnd.png",
+      "bg": "#FFFFEE"
+    },
+    {
+      "title": "License for Introduction to Algebra has been assigned to your school",
+      "class": "",
+      "course": "",
+      "date": "15-Sep-2018 at 07:21 pm",
+      "iconpath": "./asset/dnd.png",
+      "bg": "#FFFFFF"
+    },
+    {
+      "title": "License for Introduction to Algebra has been assigned to your school",
+      "class": "",
+      "course": "",
+      "date": "15-Sep-2018 at 07:21 pm",
+      "iconpath": "./asset/dnd.png",
+      "bg": "#FFFFEE"
+    },
+    {
+      "title": "License for Introduction to Algebra has been assigned to your school",
+      "class": "",
+      "course": "",
+      "date": "15-Sep-2018 at 07:21 pm",
+      "iconpath": "./asset/dnd.png",
+      "bg": "#FFFFFF"
+    },
+    {
+      "title": "License for Introduction to Algebra has been assigned to your school",
+      "class": "",
+      "course": "",
+      "date": "15-Sep-2018 at 07:21 pm",
+      "iconpath": "./asset/dnd.png",
+      "bg": "#FFFFFF"
     }
   ]
 }
