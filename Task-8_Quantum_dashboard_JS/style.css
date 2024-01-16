@@ -1,0 +1,505 @@
+
+@font-face {
+    font-family: Quickmed;
+    src: url('./asset/Quicksandfont1/static/Quicksand-Medium.ttf');
+}
+@font-face {
+    font-family: Quickbold;
+    src: url('./asset/Quicksandfont1/static/Quicksand-Bold.ttf');
+}
+
+body{
+    margin: 0px;
+}
+.hmainbadge{
+    position: relative;
+
+}
+.hmainbadge:hover{
+    cursor: pointer;
+}
+.hbadge{
+    position: absolute;
+    width: 11px;
+    height: 14px;
+    background-color: blue;
+    left: 60%;
+    top: 6px;
+    color: #FFFFFF;
+    font-size: 12px;
+    border-radius: 100%;
+    padding: 4px;
+    text-align: center;
+}
+.hbadgeprofile{
+    position: absolute;
+    width: 11px;
+    height: 14px;
+    background-color: #FFFFFF;
+    left: 60%;
+    top: 6px;
+    color: #222222;
+    font-size: 12px;
+    border-radius: 100%;
+    padding: 4px;
+    text-align: center;
+}
+.main{
+    box-sizing: border-box;
+    background-color: #EEEEEE;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.active{
+    border-bottom: 4px solid white;
+    color: white;
+}
+.hitems{
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+.hitems li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 56px;
+    background: transparent url('./asset/header\ pattern\ image.png') 0% 0%  padding-box; 
+    background-color: black;
+    /* background-size: 100%; */
+    background-size: cover;
+    /* opacity: 1100%; */
+    
+}
+
+.main .header .hicon{
+    margin: 11px 0 0 24px ;
+height: 36px;
+
+}
+
+.header .hitems{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 32px;
+    font-family: Quickmed;
+    color: #3FD28B;
+    margin-right: 24px;
+}
+
+
+.body {
+    margin: 24px;
+}
+.body .first {
+    display: grid;
+    /* justify-content: center; */
+    grid-template-columns: auto auto;
+    background: rgba(141, 220, 151, 1);
+    height: 64px;
+}
+
+.body .first .courses,.body .first .classes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.second {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    border-bottom: 2px solid rgb(0 0 0 / 34%);
+}
+.second .filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    font-family: Quickmed;
+}
+
+.second .filter label {
+    color: rgba(104, 104, 104, 1);
+    font-size: 12px;
+}
+.second .filter select {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid rgb(0 0 0 / 28%);
+}
+
+.second .res p {
+    font-size: 12px;
+    color: rgba(104, 104, 104, 1);
+}
+
+
+.third {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.third .card .f {
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+    padding-bottom: 10px !important;
+    padding: 24px;
+}
+
+.third .card .f .img img{
+    width: 135px;
+}
+
+.third .card .f .content{
+    font-family: Quickmed;
+    width: 275px;  
+}
+
+.third .card .f .content p {
+    margin-top: 0px;
+    color: rgba(34, 34, 34, 1);
+    font-size: 16px;
+    margin-bottom: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.third .card .f .content ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    list-style: none;
+    margin: 7px 0;
+    padding: 0px;
+}
+
+.third .card .f .content ul li{
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 12px;
+    color: rgba(102, 102, 102, 1);
+}
+.third .card .f .content .not li{
+    padding-left: 0px;
+}
+.third .card .f .content ul li span{
+    font-family: Quickbold;
+    color: rgba(34, 34, 34, 1);
+    font-size: 12px;
+}
+.third .card .f .content .spec li:first-child{
+    padding-left: 0px; 
+    border-right: 2px solid rgb(129, 128, 128);
+}
+.third .card .f .content select{
+    height: 27px;
+    font-size: 16px;
+    margin-top: 13px;
+    width: 100%;
+    border: 0px;
+    outline: 0px;
+    background: transparent;
+    border-bottom: 2px solid #00000059;
+
+        -webkit-appearance: none;
+        background-image: url("./asset/icons/arrow-down.svg");
+      background-repeat: no-repeat;
+      background-position: right center; 
+      background-position: calc(100% - 6px) center;  
+    
+}
+.card{
+    width: 476px;
+    height:246px;
+    background: rgba(255, 255, 255, 1) 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+}
+
+.card .s {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    margin-top:5px;
+    margin-bottom: 9px;
+    margin-left: 24px;
+    margin-right: 24px;
+    
+    border-top: 2px solid #8b8888;
+}
+.card .s svg{
+    height: 24px;
+    width: 22px;
+}
+
+.single{
+    border: 0px !important;
+    padding: 0px  !important;
+}
+
+.op-4{
+    opacity: 0.4;
+}
+
+
+.fone {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 16px;
+    background: #EEEEEE;
+}
+
+.fone a{
+    font-family: Quickmed;
+    text-decoration: none;
+    color: #1F7A54;
+    font-size: 14px;
+}
+
+.fone a:first-child{
+    border-right: 2px solid #0000001F;
+    padding-right: 8px;
+}
+.fone a:last-child{
+    padding-left: 8px;
+}
+
+.fsecinn {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+     background: #E0E1E1;
+}
+
+
+.fsecinn svg{ 
+    padding-right: 16px;
+}
+.fsecinn p{
+    border-left: 1px solid rgb(132, 129, 129);
+    padding-left: 16px;
+    color: #616161;
+    font-size: 12px;
+}
+.fsecinn p .special{
+    font-family: Quickbold;
+}
+.courses{
+    border-bottom: 4px solid #222222;
+}
+
+.courses h2 {
+    margin: 0px;
+}
+.courses p,.classes p{
+    font-size: 16px;
+    font-family:  Quickmed;
+    color: #222222;
+    opacity: 100%;
+
+}
+.fsecond {
+    height: 40px;
+}
+
+.footer{
+    margin-top: auto;
+}
+.sm, .sm svg{
+    display: none;
+ }
+.card{
+    position: relative;
+}
+.card .badge{
+    position: absolute;
+    width: 52px;
+    height: 18px;
+    background-color: #FFE4E6;
+    font-size: 10px;
+    color: #D80000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Quickmed;
+}
+.br0{
+    border-right: none !important;
+}
+.op-0{
+    opacity: 0.4;
+}
+
+.header{
+    position: relative;
+}
+.forsm{
+    /* display: none; */
+    width: 280px;
+    height: 100%;
+    margin-right: 16px;
+    position: absolute;
+    top: 0%; 
+    right: 0%;
+    top: 72%;
+    z-index: 1;
+    box-shadow: 0px 13px 20px #0000003D;
+    display: none;
+
+}
+.forsm ul{ 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+    background-color: #FFFFFF;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+.forsm ul li{
+    height: 48px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #1F7A54;
+    font-family: Quickmed;
+    font-size: 14px;
+    width: 100%;
+}
+.contentdown{
+    margin-left: 32px;
+}
+
+.forsm ul li select{
+    width: 100%;
+    height: 100%;
+    width: 100%;
+    height: 100%; 
+    margin: 24px;
+    outline: none;
+    border: none;
+}
+
+.announcement{
+    box-shadow: 0px 3px 6px #00000029;
+    height: 582px;
+    width: 315px;
+    position: absolute;
+    right: 8%;
+    top: 97%; 
+    z-index: 1;
+    display: flex;
+    justify-content: space-between; 
+    flex-direction: column;
+    display: none;
+}
+.anfirst{
+overflow-x: scroll;
+overflow-y: scroll;
+height: 534px;
+}
+.anfirst .f{
+    box-sizing: border-box;
+    height: auto;
+    width: 315px;
+    padding: 16px;
+    padding-top: 12px;
+    background-color: #FFFFFF;
+    border-bottom: 2px solid #00000029;
+}
+.announcement .btns{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    color: #1F7A54;
+    font-size: 14px;
+}
+
+.announcement .btns .shall{
+    border-right: 1px solid #0000001F;
+}
+.shall,.crnew{
+    width: 50%;
+    text-align: center;
+}
+.f .fir{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.f .fir img{
+    height: 18px;
+    width: 20px;
+}
+.f .fir p{
+   font-family: Quickmed;
+   font-size: 12px;
+   color: #222222;
+}
+.f .sec{
+  font-size: 14px;
+  color: #222222;
+  font-family: Quickmed;
+  margin: 0px;
+}
+.f .down{
+    font-size: 12px;
+    color: #6E6E6E;
+  font-family: Quickmed;
+
+    display: flex;
+    justify-content: space-between;
+}
+.f .down .ff2{
+    width: 50%;
+}
+.f .down .ff1{
+    width: 50%;
+}
+
+.forsm ul .contentdown,.forsm ul .usercontentdown,.forsm ul .reportcontentdown,.forsm ul .admincontentdown{
+    display: none; 
+}
+@media screen and (max-width:1024px) {
+    .third{
+        grid-template-columns: auto;
+    }
+}
+
+@media screen and (max-width:768px) {
+     .lg{
+        display: none !important;
+     }
+     
+     .sm svg{
+        display: block;
+     }
+} 
+
+@media screen and (max-width:476px) {
+    .third .card .f .content { 
+        width: auto !important;
+    }
+    .card {
+        width: auto;
+        height: auto; 
+    }
+}

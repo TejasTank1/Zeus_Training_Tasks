@@ -1,0 +1,202 @@
+{
+  "data": [
+    {
+      "imageurl": "./asset/images/imageMask.png",
+      "title": "Acceleration",
+      "tags": ["physics", "Grade", "maths"],
+      "expired": false,
+      "op": "Mr Frank's ClassB",
+      "student": 50,
+      "detail": [4, 18, 24],
+      "date": ["21-Jan-2020", "21-Aug-2020"],
+      "isimp": true,
+      "blur": [false, false, false, false]
+    },
+    {
+      "imageurl": "./asset/images/imageMask-1.png",
+      "title": "Displacement, Velocity and Speed",
+      "tags": ["physics 2", "Grade", "maths"],
+      "expired": false,
+      "op": "No Classes",
+      "detail": [2, 25, 20],
+      "date": [],
+      "isimp": true,
+      "blur": [false, true, true, false]
+    },
+    {
+      "imageurl": "./asset/images/imageMask-3.png",
+      "title": "Introduction to Biology: Micro organisms and how they affec...",
+      "tags": ["Biology 2", "Grade 4", "maths"],
+      "expired": false,
+      "op": "All Classes",
+      "student": 300,
+      "detail": [5, 16, 22],
+      "date": [],
+      "isimp": true,
+      "blur": [false, true, true, false]
+    },
+    {
+      "imageurl": "./asset/images/imageMask-2.png",
+      "title": "Introduction to High School Mathematics",
+      "tags": ["Mathematics", "Grade 8", "maths"],
+      "expired": true,
+      "op": "Mr Frank's Class A",
+      "student": 44,
+      "detail": [2, 25, 20],
+      "date": ["14-Oct-2019", "20-Oct-2020"],
+      "isimp": false,
+      "blur": [false, false, false, false]
+    }
+  ],
+  "announcement": [
+    {
+      "up": "PA: Wilson Kumar",
+      "title": "No classes will be held on 21st Nov",
+      "lef": "2 files are attached",
+      "right": "15-Sep-2018 at 07:21 pm",
+      "bg": "#FFFFFF",
+      "iconpath": "./asset/correct.png"
+    },
+    {
+      "up": "PA: Samson White",
+      "title": "Guest lecture on Geometry on 20th September",
+      "lef": "2 files are attached",
+      "right": "15-Sep-2018 at 07:21 pm",
+      "bg": "#FFFFEE",
+      "iconpath": "./asset/dnd.png"
+    },
+    {
+      "up": "PA: Wilson Kumar",
+      "title": "Additional course materials available on request",
+      "lef": "Course: Mathematics 101",
+      "right": "15-Sep-2018 at 07:21 pm",
+      "bg": "#FFFFFF",
+      "iconpath": "./asset/correct.png"
+    },
+    {
+      "up": "PA: Wilson Kumar",
+      "title": "No classes will be held on 21st Nov",
+      "lef": "",
+      "right": "15-Sep-2018 at 07:21 pm",
+      "bg": "#FFFFEE",
+      "iconpath": "./asset/dnd.png"
+    },
+    {
+      "up": "PA: Wilson Kumar",
+      "title": "No classes will be held on 21st Nov",
+      "lef": "2 files are attached",
+      "right": "15-Sep-2018 at 07:21 pm",
+      "bg": "#FFFFEE",
+      "iconpath": "./asset/dnd.png"
+    },
+    {
+      "up": "PA: Wilson Kumar",
+      "title": "No classes will be held on 21st Nov",
+      "lef": "2 files are attached",
+      "right": "15-Sep-2018 at 07:21 pm",
+      "bg": "#FFFFFF",
+      "iconpath": "./asset/correct.png"
+    },
+    {
+      "up": "PA: Wilson Kumar",
+      "title": "No classes will be held on 21st Nov",
+      "lef": "2 files are attached",
+      "right": "15-Sep-2018 at 07:21 pm",
+      "bg": "#FFFFEE",
+      "iconpath": "./asset/dnd.png"
+    },
+    {
+      "up": "PA: Wilson Kumar",
+      "title": "No classes will be held on 21st Nov",
+      "lef": "2 files are attached",
+      "right": "15-Sep-2018 at 07:21 pm",
+      "bg": "#FFFFFF",
+      "iconpath": "./asset/correct.png"
+    },
+    {
+      "up": "PA: Wilson Kumar",
+      "title": "No classes will be held on 21st Nov",
+      "lef": "2 files are attached",
+      "right": "15-Sep-2018 at 07:21 pm",
+      "bg": "#FFFFEE",
+      "iconpath": "./asset/dnd.png"
+    },
+    {
+      "up": "PA: Wilson Kumar",
+      "title": "No classes will be held on 21st Nov",
+      "lef": "2 files are attached",
+      "right": "15-Sep-2018 at 07:21 pm",
+      "bg": "#FFFFFF",
+      "iconpath": "./asset/correct.png"
+    }
+  ],
+  "notification":[
+    {
+      "title":"License for Introduction to Algebra has been assigned to your school",
+      "class":"",
+      "course":"",
+      "date":"15-Sep-2018 at 07:21 pm",
+      "iconpath":"./asset/dnd.png"
+    },{
+      "title":"Lesson 3 Practice Worksheet overdue for Amy Santiago",
+      "class":"",
+      "course":"Advanced Mathematics",
+      "date":"15-Sep-2018 at 05:21 pm",
+      "iconpath":"./asset/correct.png"
+    },{
+      "title":"23 new students created",
+      "class":"",
+      "course":"",
+      "date":"14-Sep-2018 at 01:21 pm",
+      "iconpath":"./asset/dnd.png"
+    },{
+      "title":"15 submissions ready for evaluation",
+      "class":"Basics of Algebra",
+      "course":"",
+      "date":"13-Sep-2018 at 01:15 pm",
+      "iconpath":"./asset/dnd.png"
+    },{
+      "title":"License for Basic Concepts in Geometry has been assigned to your... school",
+      "class":"",
+      "course":"",
+      "date":"15-Sep-2018 at 07:21 pm",
+      "iconpath":"./asset/dnd.png"
+    },{
+      "title":"Lesson 3 Practice Worksheet overdue for Sam Diego",
+      "class":"",
+      "course":"Advanced Mathematics",
+      "date":"15-Sep-2018 at 07:21 pm",
+      "iconpath":"./asset/correct.png"
+    },{
+      "title":"License for Introduction to Algebra has been assigned to your school",
+      "class":"",
+      "course":"",
+      "date":"15-Sep-2018 at 07:21 pm",
+      "iconpath":"./asset/dnd.png"
+    },{
+      "title":"License for Introduction to Algebra has been assigned to your school",
+      "class":"",
+      "course":"",
+      "date":"15-Sep-2018 at 07:21 pm",
+      "iconpath":"./asset/dnd.png"
+    },{
+      "title":"License for Introduction to Algebra has been assigned to your school",
+      "class":"",
+      "course":"",
+      "date":"15-Sep-2018 at 07:21 pm",
+      "iconpath":"./asset/dnd.png"
+    },{
+      "title":"License for Introduction to Algebra has been assigned to your school",
+      "class":"",
+      "course":"",
+      "date":"15-Sep-2018 at 07:21 pm",
+      "iconpath":"./asset/dnd.png"
+    },{
+      "title":"License for Introduction to Algebra has been assigned to your school",
+      "class":"",
+      "course":"",
+      "date":"15-Sep-2018 at 07:21 pm",
+      "iconpath":"./asset/dnd.png"
+    }
+  ]
+}
