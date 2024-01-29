@@ -143,6 +143,8 @@ async function init() {
   }
 }
 
+
+
 async function initannouncement() {
   const req = await fetch("./data.json");
   let data = await req.json();
@@ -308,6 +310,8 @@ function shownotification() {
     ele.style.display = "block";
   }
 }
+
+ 
 
 function ccchange(classname) {
   let ele = document.querySelector("." + classname);
