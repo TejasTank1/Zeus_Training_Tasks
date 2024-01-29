@@ -1,0 +1,124 @@
+
+--adding into user_reg
+INSERT INTO `walk_in_portal_db1`.`user_reg` VALUES (1,'tejas@gmail.com','abcd');
+INSERT INTO `walk_in_portal_db1`.`user_reg` VALUES (1,'akshil@gmail.com','ak123');
+
+
+--adding into personal_info
+INSERT INTO `walk_in_portal_db1`.`personal_info` VALUES('tank','tejas','918849248972','resume_url','picture_url','portfolio_url','akshil',1,1);
+INSERT INTO `walk_in_portal_db1`.`personal_info` VALUES('aedeshna','akshil','913256324532','resume_url','picture_url','portfolio_url','tejas',1,2);
+
+
+--adding into technology_table
+INSERT INTO `walk_in_portal_db1`.`technology_table` VALUES (1,'Javascript');
+INSERT INTO `walk_in_portal_db1`.`technology_table` VALUES (2,'Java');
+INSERT INTO `walk_in_portal_db1`.`technology_table` VALUES (3,'python');
+INSERT INTO `walk_in_portal_db1`.`technology_table` VALUES (4,'c/c++');
+INSERT INTO `walk_in_portal_db1`.`technology_table` VALUES (5,'Angular');
+
+-adding into professional_qualification_info
+INSERT INTO `walk_in_portal_db1`.`professional_qualification_info` VALUES(3,500000,1000000,1,2,1,'software engineer','Experienced',1);
+INSERT INTO `walk_in_portal_db1`.`professional_qualification_info` VALUES(2,400000,900000,1,3,0,'--','Experienced',2);
+
+--adding into professional_qualification_info_has_technology_expert_table
+INSERT INTO `walk_in_portal_db1`.`professional_qualification_info_has_technology_expert_table` VALUES(1,1);
+INSERT INTO `walk_in_portal_db1`.`professional_qualification_info_has_technology_expert_table` VALUES(1,2);
+INSERT INTO `walk_in_portal_db1`.`professional_qualification_info_has_technology_expert_table` VALUES(2,3);
+INSERT INTO `walk_in_portal_db1`.`professional_qualification_info_has_technology_expert_table` VALUES(2,4);
+
+--adding into professional_qualification_info_has_technology_familier_table
+INSERT INTO `walk_in_portal_db1`.`professional_qualification_info_has_technology_familier_table` VALUES(1,1);
+INSERT INTO `walk_in_portal_db1`.`professional_qualification_info_has_technology_familier_table` VALUES(1,2);
+INSERT INTO `walk_in_portal_db1`.`professional_qualification_info_has_technology_familier_table` VALUES(1,3);
+INSERT INTO `walk_in_portal_db1`.`professional_qualification_info_has_technology_familier_table` VALUES(2,3);
+INSERT INTO `walk_in_portal_db1`.`professional_qualification_info_has_technology_familier_table` VALUES(2,4);
+INSERT INTO `walk_in_portal_db1`.`professional_qualification_info_has_technology_familier_table` VALUES(2,5);
+
+
+
+--adding into stream
+
+INSERT INTO `walk_in_portal_db1`.`stream` (`Streamid`, `Name`) VALUES ('1', 'Information Technology');
+INSERT INTO `walk_in_portal_db1`.`stream` (`Streamid`, `Name`) VALUES ('2', 'Computer ENgineering');
+INSERT INTO `walk_in_portal_db1`.`stream` (`Streamid`, `Name`) VALUES ('3', 'Electrical Engineering');
+
+ 
+--adding into college
+
+INSERT INTO `walk_in_portal_db1`.`college` (`Collegeid`, `Name`, `College_locaton`) VALUES ('1', 'Birla Vishvakarma Mahavidyalaya', 'Anand');
+INSERT INTO `walk_in_portal_db1`.`college` (`Collegeid`, `Name`, `College_locaton`) VALUES ('2', 'G.H patel', 'Anand');
+INSERT INTO `walk_in_portal_db1`.`college` (`Collegeid`, `Name`, `College_locaton`) VALUES ('3', 'Pune Institute', 'Pune');
+
+--adding into qualification
+
+INSERT INTO `walk_in_portal_db1`.`qualification` (`Qualification_id`, `Name`) VALUES ('1', 'Bachelor in Technology (B.Tech)');
+INSERT INTO `walk_in_portal_db1`.`qualification` (`Qualification_id`, `Name`) VALUES ('2', 'Bachelor of Science (B.sc)');
+
+--adding into education_info
+
+INSERT INTO `walk_in_portal_db1`.`ediucation_info` (`Percentage`, `Passing_year`, `Id`, `Collegeid`, `Streamid`, `Qualification_id`) VALUES ('90', '2024', '1', '1', '2', '2');
+INSERT INTO `walk_in_portal_db1`.`ediucation_info` (`Percentage`, `Passing_year`, `Id`, `Collegeid`, `Streamid`, `Qualification_id`) VALUES ('80', '2023', '2', '2', '1', '1');
+
+--adding into slots
+
+INSERT INTO `walk_in_portal_db1`.`slots` (`id`, `Slot_name`) VALUES ('1', '9:00 AM to 11:00 AM');
+INSERT INTO `walk_in_portal_db1`.`slots` (`id`, `Slot_name`) VALUES ('2', '1:00 PM to 3:00 PM');
+INSERT INTO `walk_in_portal_db1`.`slots` (`id`, `Slot_name`) VALUES ('3', '4:00 PM to 6:00 PM');
+INSERT INTO `walk_in_portal_db1`.`slots` (`id`, `Slot_name`) VALUES ('4', '6:00 PM to 8:00 PM');
+
+--adding into job_roles
+
+INSERT INTO `walk_in_portal_db1`.`job_roles` (`Role_id`, `Name`, `Package`, `Description`, `Requirement`) VALUES ('1', 'Instructional Designer', '500000', '- Generate highly interactive and innovative instructional strategies for e-learning solutions - Develop course structure and learning specifications addressing the requirements of the target audience - Construct appropriate testing strategies to ensure learners\' understanding and performance - Address usability issues - Keep abreast of new trends in e-learning - Ensure that the instructional strategies are as per global standards - Prepare instructional design checklists and guidelines - Check for quality assurance', '- Experience in creating instructional plans and course maps. - Experience in the use of media like graphics, illustrations, photographs, audio, video, animations, and simulations in instruction - Awareness of different instructional design models and familiarity with instructional and learning theories - Awareness of latest trends in e-learning and instructional design - Strong client consulting/interfacing skills. - Ability to guide clients to focus on specific objectives and teaching points - Strong meeting facilitation, presentation and interpersonal skills - A thorough understanding of the web as an instructional medium - Post graduate degree in Education, Instructional Design, Mass Communication or Journalism');
+
+--adding into Walk_in_drive
+
+INSERT INTO `walk_in_portal_db1`.`walk_in_drives` (`Drive_id`, `Drive_name`, `Drive_start_date`, `Drive_end_date`, `Location`, `Extra_info`,`pre_id`) VALUES ('1', 'Walk In for Multiple Job Roles', '03-Jul-2021', '04-Jul-2021', 'Mumbai', '-','1');
+
+--adding into walk_in_drives_has_job_roles
+
+INSERT INTO `walk_in_portal_db1`.`walk_in_drives_has_job_roles` (`Drive_id`, `Role_id`) VALUES ('1', '1');
+
+
+--adding into drive_available_time
+
+INSERT INTO `walk_in_portal_db1`.`drive_available_time` (`Slots_id`, `Walk_in_drives_Drive_id`) VALUES ('1', '1');
+INSERT INTO `walk_in_portal_db1`.`drive_available_time` (`Slots_id`, `Walk_in_drives_Drive_id`) VALUES ('2', '1');
+
+--adding into drive_applied
+
+INSERT INTO `walk_in_portal_db1`.`drive_applied` (`Resume`, `Id`, `Slots_id`, `Drive_id`) VALUES ('url', '1', '1', '1');
+
+--adding into drive_applied_has_job_roles
+
+INSERT INTO `walk_in_portal_db1`.`drive_applied_has_job_roles` (`Id`, `Drive_id`, `Slots_id`, `Role_id`) VALUES ('1', '1', '1', '1');
+
+--adding into all_job_roles_of_user
+
+INSERT INTO `walk_in_portal_db1`.`all_job_roles_of_user` (`Role_id`, `Name`) VALUES ('1', 'Software Engineer');
+INSERT INTO `walk_in_portal_db1`.`all_job_roles_of_user` (`Role_id`, `Name`) VALUES ('2', 'Quality Engineer');
+
+--adding into user_reg_has_all_job
+INSERT INTO `walk_in_portal_db1`.`user_reg_has_all_job` (`Id`, `Role_id`) VALUES ('1', '1');
+INSERT INTO `walk_in_portal_db1`.`user_reg_has_all_job` (`Id`, `Role_id`) VALUES ('1', '2');
+INSERT INTO `walk_in_portal_db1`.`user_reg_has_all_job` (`Id`, `Role_id`) VALUES ('2', '2');
+
+
+
+--** query to get data in walk-in-page **-- 
+
+--- to get all drives
+SELECT * FROM walk_in_drives;
+
+--- to get specific drive.
+SELECT * FROM walk_in_drives where drive_id=1;
+
+--- to get All roles in particular drive.
+SELECT Role_id,Name,Package,Description,Requirement FROM Walk_in_drive_has_Job_roles
+              JOIN Job_roles
+              ON Walk_in_drive_has_Job_roles.Drive_id=1 AND Walk_in_drive_has_Job_roles.Role_id==Job_roles.Role_id;
+
+--- to get Time slots for particular drive.
+SELECT Slot_name from drive_available_time
+              JOIN slots
+              ON drive_available_time.Walk_in_drives_Drive_id=1 AND drive_available_time.Slots_id = Slots.id;
+
